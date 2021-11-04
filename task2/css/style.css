@@ -1,0 +1,86 @@
+*{
+    margin: 0; padding:0;
+}
+h1,h6{
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+}
+
+a{
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+
+}
+section{
+    padding-top: 140px;
+
+}
+#hero{
+    
+    background-image:url(../images/header-bg.jpg);
+    
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.btn1{
+    padding: 16px 32px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 40px;
+}
+.btn1{
+    background-color: rgb(255, 204, 0);
+    border-color: rgb(255, 204, 0);
+    border-radius: 25px;
+}
+.btn1:hover{
+    background-color: transparent;
+    border-color:rgb(255, 204, 0);
+}
+
+#contacts{
+  margin-top: 0px ;
+}
+label{
+          
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+
+}
+
+input[type=text] , input[type=email], select , textarea{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 7px;
+}
+
+select{
+  width: 100%;
+}
+
+input[type=checkbox] {
+  margin-bottom: 3px;
+}
+
+.btn1{
+  border: solid 1px rgb(0, 0, 0);
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  background-color: rgb(255, 204, 0);
+}
+footer{
+  padding: 50px 100px;
+  margin-top: 40px;
+  background-color: rgb(255, 204, 0);
+}
+
